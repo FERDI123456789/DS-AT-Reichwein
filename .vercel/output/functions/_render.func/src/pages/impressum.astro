@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Picture } from "astro:assets";
+import ImpresHero from "../components/impressum/ImpresHero.astro";
+import ImpresNavReact from "../components/impressum/ImpresNavReact"
+import ImpresFooter from "../components/impressum/ImpresFooter.astro";
+---
+
+<Layout title="Datenshutz">
+    <ImpresNavReact client:idle />
+    <ImpresHero />
+    <ImpresFooter />
+</Layout>

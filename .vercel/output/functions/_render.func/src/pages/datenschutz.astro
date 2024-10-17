@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import DataHero from "../components/datenshutz/DataHero.astro";
+import DataNavReact from "../components/datenshutz/DataNavReact.tsx"
+import DataFooter from "../components/datenshutz/DataFooter.astro";
+---
+
+<Layout title="Datenshutz">
+    <DataNavReact client:idle />
+    <DataHero />
+    <DataFooter />
+</Layout>

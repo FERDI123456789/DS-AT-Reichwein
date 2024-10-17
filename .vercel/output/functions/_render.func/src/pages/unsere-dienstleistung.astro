@@ -1,0 +1,22 @@
+---
+import UdNavReact from "../components/Ud/UdNavReact";
+import UdFooter from "../components/Ud/UdFooter.astro";
+import UdHero from "../components/Ud/UdHero.astro";
+import Layout from "../layouts/Layout.astro";
+import UdLinks from "../components/Ud/UdLinks.astro";
+---
+
+<Layout title="Unsere Dienstleistung">
+  <UdNavReact client:idle/>
+  <section class="fulll mt-5 mb-40">
+    <UdHero />
+    <UdLinks />
+  </section>
+  <UdFooter/>
+</Layout>
+
+<style>
+  .fulll {
+    background: linear-gradient(rgba(255, 255, 255, 0.5%), rgba(231,64,44, 100%));
+  }
+</style>

@@ -1,0 +1,72 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^\\/_image$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/404\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/datenschutz\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/ds-at-als-arbeitsgeber\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/impressum\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/innovation-nachhaltigkeit\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/karriere\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/kontakt\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/oems-und-partner\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/unsere-dienstleistung\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/unsere-zertifizierungen\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/unsere-zusaetzlichen-benefits\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/$",
+			"dest": "_render"
+		},
+		{
+			"src": "/.*",
+			"dest": "_render",
+			"status": 404
+		}
+	]
+}
