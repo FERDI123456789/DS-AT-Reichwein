@@ -3,9 +3,9 @@ import { c as createComponent, r as renderTemplate, g as renderComponent, m as m
 import 'kleur/colors';
 import { jsx, Fragment, jsxs } from 'react/jsx-runtime';
 import { useState } from 'react';
-import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_CRyE6Z0x.mjs';
+import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_DzkoxqEz.mjs';
 import { $ as $$Picture, a as $$Image } from '../chunks/_astro_assets_dJ9FQuWX.mjs';
-import { a as auto } from '../chunks/shutterstock_591685676_Co69rfDg.mjs';
+import { c as car } from '../chunks/techauto_BMV6crR5.mjs';
 /* empty css                                                  */
 export { renderers } from '../renderers.mjs';
 
@@ -13,7 +13,7 @@ const navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [menuOne, setMenuOne] = useState(false);
   return /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsx("section", { children: /* @__PURE__ */ jsx("nav", { className: "font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0", children: /* @__PURE__ */ jsxs("div", { className: "flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20", children: [
-    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/public/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
+    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
     /* @__PURE__ */ jsxs(
       "div",
       {
@@ -66,10 +66,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-dienstleistung",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Dienstleistungen" })
                   ]
                 }
@@ -77,10 +77,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/innovation-nachhaltigkeit",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Innovationen, Nachhaltigkeit" })
                   ]
                 }
@@ -88,10 +88,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zertifizierungen",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Zertifizierungen" })
                   ]
                 }
@@ -99,10 +99,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/ds-at-als-arbeitsgeber",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "text-red-800 font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "DS-AT als Arbeitgeber" })
                   ]
                 }
@@ -110,10 +110,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zusaetzlichen-benefits",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere zusätzlichen Benefits" })
                   ]
                 }
@@ -121,10 +121,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/oems-und-partner",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "OEMs und Partner" })
                   ]
                 }
@@ -189,7 +189,7 @@ const navbar = () => {
 };
 
 const $$GeberHero = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Ud-Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="ud-hero"> <!-- Container --> <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20"> <!-- Component --> <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center"> <!-- Item --> <div class="lg:w-1/2"> <!-- Title --> <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl"> DS-AT als Arbeitgeber </h2> <p class="mb-6 max-w-lg text-sm text-gray-700 sm:text-base"> Wir sind Ausbilder für <span class="font-bold">KFZ- und IT-Berufe</span> der IHK Thüringen. <br><br>Zusätzliche und notwendige Fahrerqualifikationen sind fester Bestandteil unseres <span class="font-bold">Weiterbildungsprogramms.</span><br><br>Wir suchen stets (w/m/d):</p> <div class="mb-6 h-0 w-40 border [border-top-style:solid] border-black"></div> <!-- List --> <ul class="flex flex-col"> <li class="mb-2 flex items-center" style="width: 400px;"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Gernfahrer,</span> die sich zu einem <span class="font-bold">Testfahrer entwickeln</span> und <span class="font-bold">perfektionieren</span> wollen. </p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Kraftfahrer,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">KFZ-Mechatroniker,</span> </p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Sachbearbeiter,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Projektleiter,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Werkstudenten/Praktikanten,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <p>die an der Entwicklung von modernen, automatisierten Fahrzeugsystemen mitarbeiten wollen.</p> </ul> </div> <!-- Item --> <div class=""> ${renderComponent($$result2, "Picture", $$Picture, { "src": auto, "alt": "auto", "class": "rounded-3xl w-full" })} </div> </div> </div> </section> ` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Ud-Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="ud-hero"> <!-- Container --> <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20"> <!-- Component --> <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center"> <!-- Item --> <div class="lg:w-1/2"> <!-- Title --> <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl"> DS-AT als Arbeitgeber </h2> <p class="mb-6 max-w-lg text-sm text-gray-700 sm:text-base"> Wir sind Ausbilder für <span class="font-bold">KFZ- und IT-Berufe</span> der IHK Thüringen. <br><br>Zusätzliche und notwendige Fahrerqualifikationen sind fester Bestandteil unseres <span class="font-bold">Weiterbildungsprogramms.</span><br><br>Wir suchen stets (w/m/d):</p> <div class="mb-6 h-0 w-40 border [border-top-style:solid] border-black"></div> <!-- List --> <ul class="flex flex-col"> <li class="mb-2 flex items-center" style="width: 400px;"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Gernfahrer,</span> die sich zu einem <span class="font-bold">Testfahrer entwickeln</span> und <span class="font-bold">perfektionieren</span> wollen. </p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Kraftfahrer,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">KFZ-Mechatroniker,</span> </p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Sachbearbeiter,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Projektleiter,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <li class="mb-2 flex items-center"> <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4"> <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Werkstudenten/Praktikanten,</span></p> </li> <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> <p>die an der Entwicklung von modernen, automatisierten Fahrzeugsystemen mitarbeiten wollen.</p> </ul> </div> <!-- Item --> <div class=""> ${renderComponent($$result2, "Picture", $$Picture, { "src": car, "alt": "autos", "format": "webp", "quality": "max", "width": 1500, "class": "mx-auto w-full h-full rounded-xl" })} </div> </div> </div> </section> ` })}`;
 }, "/home/ferdi/r-ds-at/src/components/geber/geberHero.astro", void 0);
 
 const $$GeberFooter = createComponent(($$result, $$props, $$slots) => {

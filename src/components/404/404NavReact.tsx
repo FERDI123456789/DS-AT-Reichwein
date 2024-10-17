@@ -28,7 +28,7 @@ const navbar = () => {
             </a>
             <a
               href="/karriere"
-              className="font-inter lg: rounded-lg pb-8 lg:px-6 lg:py-4 lg: lg:hover:text-red-500"
+              className="font-inter lg: rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-red-500"
             >
               Karriere
             </a>

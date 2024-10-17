@@ -1,7 +1,7 @@
 ---
 import { Picture } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
-import auto from "../../assets/shutterstock_591685676.jpg"
+import car from "../../assets/techauto.png"
 ---
 
 <Layout title="Ud-Hero">
@@ -54,7 +54,7 @@ import auto from "../../assets/shutterstock_591685676.jpg"
             </div>
             <!-- Item -->
             <div class="">
-              <Picture src={auto} alt="auto" class="rounded-3xl w-full"/>
+              <Picture src={car} alt="autos" format='webp' quality="max" width={1500} class="mx-auto w-full h-full rounded-xl"/>
             </div>
           </div>
         </div>

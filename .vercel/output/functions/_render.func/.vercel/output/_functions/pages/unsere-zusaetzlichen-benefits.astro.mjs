@@ -3,7 +3,7 @@ import { c as createComponent, r as renderTemplate, g as renderComponent, m as m
 import 'kleur/colors';
 import { jsx, Fragment, jsxs } from 'react/jsx-runtime';
 import { useState } from 'react';
-import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_CRyE6Z0x.mjs';
+import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_DzkoxqEz.mjs';
 import { $ as $$Picture, a as $$Image } from '../chunks/_astro_assets_dJ9FQuWX.mjs';
 /* empty css                                                         */
 export { renderers } from '../renderers.mjs';
@@ -12,7 +12,7 @@ const navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [menuOne, setMenuOne] = useState(false);
   return /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsx("section", { children: /* @__PURE__ */ jsx("nav", { className: "font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0", children: /* @__PURE__ */ jsxs("div", { className: "flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20", children: [
-    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/public/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
+    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
     /* @__PURE__ */ jsxs(
       "div",
       {
@@ -38,7 +38,7 @@ const navbar = () => {
             "a",
             {
               href: "/karriere",
-              className: "font-inter lg: rounded-lg pb-8 lg:px-6 lg:py-4 lg: lg:hover:text-red-500",
+              className: "font-inter lg: rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-red-500",
               children: "Karriere"
             }
           ),
@@ -68,7 +68,7 @@ const navbar = () => {
                   className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
                   href: "/unsere-dienstleistung",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Dienstleistungen" })
                   ]
                 }
@@ -76,10 +76,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/innovation-nachhaltigkeit",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Innovationen, Nachhaltigkeit" })
                   ]
                 }
@@ -87,10 +87,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zertifizierungen",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Zertifizierungen" })
                   ]
                 }
@@ -98,10 +98,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/ds-at-als-arbeitsgeber",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "DS-AT als Arbeitgeber" })
                   ]
                 }
@@ -109,10 +109,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zusaetzlichen-benefits",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "text-red-800 font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere zusätzlichen Benefits" })
                   ]
                 }
@@ -120,10 +120,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/oems-und-partner",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "OEMs und Partner" })
                   ]
                 }
@@ -239,13 +239,26 @@ const Einkommensshutz = new Proxy({"src":"/_astro/Einkommensschutz.8TO2SplJ.png"
 						}
 					});
 
-const FlacheEntlohnung = new Proxy({"src":"/_astro/Faire-Entlohnung.DEz2PEu1.png","width":500,"height":500,"format":"png"}, {
+const FaireEntlohnung = new Proxy({"src":"/_astro/Faire-Entlohnung.DEz2PEu1.png","width":500,"height":500,"format":"png"}, {
 						get(target, name, receiver) {
 							if (name === 'clone') {
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
 								return "/home/ferdi/r-ds-at/src/assets/benefits/Faire-Entlohnung.png";
+							}
+							
+							return target[name];
+						}
+					});
+
+const FlacheEntlohnung = new Proxy({"src":"/_astro/Flache-Hierarchien.Dxmcqphq.png","width":500,"height":500,"format":"png"}, {
+						get(target, name, receiver) {
+							if (name === 'clone') {
+								return structuredClone(target);
+							}
+							if (name === 'fsPath') {
+								return "/home/ferdi/r-ds-at/src/assets/benefits/Flache-Hierarchien.png";
 							}
 							
 							return target[name];
@@ -370,7 +383,7 @@ const Weiterentwicklung = new Proxy({"src":"/_astro/Weiterentwicklung.BFKOqo_O.p
 					});
 
 const $$ZbHero = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Ud-Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section> <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6"> <div class="max-w-screen-md mb-8 lg:mb-16"> <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Unsere zusätzlichen Benefits</h2> <p class="text-gray-500 sm:text-xl dark:text-gray-400">Echte Mehrwerte für ein ehrliches Miteinander</p> </div> <div class="space-y-8 md:grid md:grid-cols-3 lg:grid-cols-5 md:gap-5 md:space-y-0"> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": AVL, "alt": "AVL", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Betriebsrente, "alt": "Betriebsrente", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": EigenverantwortlcichesArbeiten, "alt": "EigenverantwortlcichesArbeiten", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Einkommensshutz, "alt": "Einkommensshutz", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": FlacheEntlohnung, "alt": "FaireEntlohnung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": FlacheEntlohnung, "alt": "FlacheEntlohnung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Gesundheitskonto, "alt": "Gesundheitskonto", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Jobrad, "alt": "Jobrad", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Jubilaeumszahlung, "alt": "Jubilaeumszahlung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": MotivierteKollegen, "alt": "MotivierteKollegen", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Sicherheitsairbag, "alt": "Sicherheitsairbag", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": TeilhabeamErfolg, "alt": "TeilhabeamErfolg", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": TopKondition, "alt": "TopKondition", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Wachstum, "alt": "Wachstum", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black rounded-3xl"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Weiterentwicklung, "alt": "Weiterentwicklung", "format": "webp", "class": "w-40" })} </div> </div> </div> </div> </section> ` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Ud-Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section> <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6"> <div class="max-w-screen-md mb-8 lg:mb-16"> <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Unsere zusätzlichen Benefits</h2> <p class="text-gray-500 sm:text-xl dark:text-gray-400">Echte Mehrwerte für ein ehrliches Miteinander</p> </div> <div class="grid grid-cols-1 gap-0 sm:grid-cols-3 md:grid md:grid-cols-3 lg:space-y-0 lg:grid-cols-5 lg:gap-0 lg:space-y-0 md:space-y-0"> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": AVL, "alt": "AVL", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Betriebsrente, "alt": "Betriebsrente", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": EigenverantwortlcichesArbeiten, "alt": "EigenverantwortlcichesArbeiten", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Einkommensshutz, "alt": "Einkommensshutz", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": FaireEntlohnung, "alt": "FaireEntlohnung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-10 items-center mb-4 h-40 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": FlacheEntlohnung, "alt": "FlacheEntlohnung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Gesundheitskonto, "alt": "Gesundheitskonto", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Jobrad, "alt": "Jobrad", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Jubilaeumszahlung, "alt": "Jubilaeumszahlung", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": MotivierteKollegen, "alt": "MotivierteKollegen", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Sicherheitsairbag, "alt": "Sicherheitsairbag", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": TeilhabeamErfolg, "alt": "TeilhabeamErfolg", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": TopKondition, "alt": "TopKondition", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Wachstum, "alt": "Wachstum", "format": "webp", "class": "w-40" })} </div> </div> <div class="bg-white border border-black"> <div class="flex justify-center mx-auto mt-5 items-center mb-4 h-30 rounded-full bg-primary-100 lg:w-40 dark:bg-primary-900"> ${renderComponent($$result2, "Picture", $$Picture, { "src": Weiterentwicklung, "alt": "Weiterentwicklung", "format": "webp", "class": "w-40" })} </div> </div> </div> </div> </section> ` })}`;
 }, "/home/ferdi/r-ds-at/src/components/Zb/ZbHero.astro", void 0);
 
 const $$ZbFooter = createComponent(($$result, $$props, $$slots) => {

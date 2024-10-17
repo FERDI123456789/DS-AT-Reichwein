@@ -28,7 +28,7 @@ const navbar = () => {
             </a>
             <a
               href="/karriere"
-              className="font-inter lg: rounded-lg pb-8 lg:px-6 lg:py-4 lg: lg:hover:text-red-500"
+              className="font-inter lg: rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-red-500"
             >
               Karriere
             </a>
@@ -49,7 +49,7 @@ const navbar = () => {
                 <div className=" z-50 flex w-full flex-col rounded-lg px-5 py-5 lg:absolute lg:top-20 lg:right-1 lg:w-[800px] bg-gray-100 lg:flex-row lg:flex-wrap lg:py-7 xl:w-[950px]">
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/unsere-dienstleistung"
                   >
                     {/* ICON */}
@@ -63,7 +63,7 @@ const navbar = () => {
                   </a>
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/innovation-nachhaltigkeit"
                   >
                     {/* ICON */}
@@ -77,7 +77,7 @@ const navbar = () => {
                   </a>
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/unsere-zertifizierungen"
                   >
                     {/* ICON */}
@@ -91,7 +91,7 @@ const navbar = () => {
                   </a>
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/ds-at-als-arbeitsgeber"
                   >
                     {/* ICON */}
@@ -105,7 +105,7 @@ const navbar = () => {
                   </a>
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/unsere-zusaetzlichen-benefits"
                   >
                     {/* ICON */}
@@ -119,7 +119,7 @@ const navbar = () => {
                   </a>
                   {/* ITEM */}
                   <a
-                    className="flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8"
+                    className="flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500"
                     href="/oems-und-partner"
                   >
                     {/* ICON */}

@@ -1,7 +1,7 @@
 /* empty css                                       */
 import { c as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_DReZCw7e.mjs';
 import 'kleur/colors';
-import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_CRyE6Z0x.mjs';
+import { $ as $$Layout, r as reichwein } from '../chunks/Reichwein50_DzkoxqEz.mjs';
 import { $ as $$Picture, a as $$Image } from '../chunks/_astro_assets_dJ9FQuWX.mjs';
 import { f as flaggen } from '../chunks/Flaggen_1170_DBYDMyJE.mjs';
 import { jsx, Fragment, jsxs } from 'react/jsx-runtime';
@@ -9,7 +9,7 @@ import { useState } from 'react';
 export { renderers } from '../renderers.mjs';
 
 const $$ImpresHero = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Kontakt Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section> <div class="bg-gray-200"> <!-- Title Container --> <div class="mx-auto w-full max-w-5xl px-5 py-12 md:px-10 md:py-16 lg:py-20"> <!-- Title Component --> <div class="flex flex-col items-stretch self-center text-center"> <h1 class="mb-5 text-2xl font-bold sm:text-3xl md:text-6xl"> Impressum </h1> <p class="text-gray-500 mb-5 text-[13px] md:text-2xl"> Impressum von DS-AT Reichwein GmbH</p> ${renderComponent($$result2, "Picture", $$Picture, { "src": flaggen, "alt": "car", "class": "mb-20 inline-block w-full rounded-2xl object-cover max-h-[540px]" })} <p style="border: 5px double rgb(0, 0, 0); margin-bottom: -30px;" class="p-1 w-full text-white bg-red-500 mb-5 text-[13px] md:text-2xl"> !!! Das sind nur beispiel Infomartionen !!! </p> </div> </div> </div> <div class="mx-auto w-full max-w-5xl px-5 py-12 md:px-10 md:py-16 lg:py-20"> <!-- Terms Component --> <div class="flex min-w-full flex-col items-start gap-y-5"> <!-- Term --> <h4 class="mb-5 text-xl font-extrabold sm:text-xl md:text-2xl">1. Datenschutz auf einen Blick Allgemeine Hinweise </h4> <p class="mb-2 text-sm">
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Kontakt Hero" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section> <div class="bg-gray-200"> <!-- Title Container --> <div class="mx-auto w-full max-w-5xl px-5 py-12 md:px-10 md:py-16 lg:py-20"> <!-- Title Component --> <div class="flex flex-col items-stretch self-center text-center"> <h1 class="mb-5 text-2xl font-bold sm:text-3xl md:text-6xl"> Impressum </h1> <p class="text-gray-500 mb-5 text-[13px] md:text-2xl"> Impressum von DS-AT Reichwein GmbH</p> ${renderComponent($$result2, "Picture", $$Picture, { "src": flaggen, "alt": "car", "class": "mb-20 inline-block w-full rounded-2xl object-cover max-h-[540px]" })} <p style="border: 5px double rgb(0, 0, 0); margin-bottom: -30px;" class="p-1 w-full text-white bg-red-500 mb-5 text-[13px] md:text-2xl"> !!! Das sind nur beispiel Informationnen !!! </p> </div> </div> </div> <div class="mx-auto w-full max-w-5xl px-5 py-12 md:px-10 md:py-16 lg:py-20"> <!-- Terms Component --> <div class="flex min-w-full flex-col items-start gap-y-5"> <!-- Term --> <h4 class="mb-5 text-xl font-extrabold sm:text-xl md:text-2xl">1. Datenschutz auf einen Blick Allgemeine Hinweise </h4> <p class="mb-2 text-sm">
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung. Datenerfassung auf dieser Website Wer ist verantwortlich für die Datenerfassung auf dieser Website?
 <br><br>
 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen. Wie erfassen wir Ihre Daten?
@@ -34,7 +34,7 @@ const navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [menuOne, setMenuOne] = useState(false);
   return /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsx("section", { children: /* @__PURE__ */ jsx("nav", { className: "font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0", children: /* @__PURE__ */ jsxs("div", { className: "flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20", children: [
-    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/public/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
+    /* @__PURE__ */ jsx("a", { href: "/", children: /* @__PURE__ */ jsx("img", { src: "/Reichwein50.png", alt: "Reichwein", width: "200px", className: "md:w-80" }) }),
     /* @__PURE__ */ jsxs(
       "div",
       {
@@ -60,7 +60,7 @@ const navbar = () => {
             "a",
             {
               href: "/karriere",
-              className: "font-inter lg: rounded-lg pb-8 lg:px-6 lg:py-4 lg: lg:hover:text-red-500",
+              className: "font-inter lg: rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-red-500",
               children: "Karriere"
             }
           ),
@@ -87,10 +87,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-dienstleistung",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg ", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Dienstleistungen" })
                   ]
                 }
@@ -98,10 +98,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500 border border-gray-100 hover:border hover:border-red-500",
                   href: "/innovation-nachhaltigkeit",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Innovationen, Nachhaltigkeit" })
                   ]
                 }
@@ -109,10 +109,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zertifizierungen",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere Zertifizierungen" })
                   ]
                 }
@@ -120,10 +120,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/ds-at-als-arbeitsgeber",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "DS-AT als Arbeitgeber" })
                   ]
                 }
@@ -131,10 +131,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5  lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/unsere-zusaetzlichen-benefits",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "Unsere zusätzlichen Benefits" })
                   ]
                 }
@@ -142,10 +142,10 @@ const navbar = () => {
               /* @__PURE__ */ jsxs(
                 "a",
                 {
-                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8",
+                  className: "flex grow flex-col rounded-lg px-5 py-5 lg:basis-60 xl:px-8 border border-gray-100 hover:border hover:border-red-500",
                   href: "/oems-und-partner",
                   children: [
-                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "../../public/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
+                    /* @__PURE__ */ jsx("div", { className: "relative bg-black w-12 p-1 rounded-lg", children: /* @__PURE__ */ jsx("img", { src: "/Favicon.png", alt: "Reichwein", width: "100", className: "transition ease-in-out lg:hover:rotate-90" }) }),
                     /* @__PURE__ */ jsx("h2", { className: "font-inter mb-1 mt-5 text-lg font-medium text-black lg:hover:text-red-500", children: "OEMs und Partner" })
                   ]
                 }
