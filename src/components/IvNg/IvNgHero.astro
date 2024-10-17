@@ -1,0 +1,53 @@
+---
+import { Picture } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import auto from "../../assets/shutterstock_591685676.jpg"
+---
+
+<Layout title="Ud-Hero">
+    <section class="ud-hero">
+        <!-- Container -->
+        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+          <!-- Component -->
+          <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center">
+            <!-- Item -->
+            <div class="lg:w-1/2">
+              <!-- Title -->
+              <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl"> Innovation Nachhaltigkeit </h2>
+              <p class="mb-6 max-w-lg text-sm text-gray-700 sm:text-base"> Bei der Ausführung und Weiterentwicklung unserer Dienstleistungen achten wir sowohl auf die gesetzlichen Bestimmungen als auch auf die Anforderungen unserer Zeit und Auftraggeber vorallem hinsichtlich Umweltschutz und Nachhaltigkeit. <br> <br>Unser zusätzlicher Beitrag: </p>
+              <div class="mb-6 h-0 w-40 border [border-top-style:solid] border-black"></div>
+              <!-- List -->
+              <ul class="flex flex-col">
+                <p class="font-bold">Aufbau einer modernen Photovoltaikanlag</p>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> auf unserem <span class="font-bold">Firmengebäude</span> </p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <p>Schaffung von <span class="font-bold">2 öffentlichen hochleistungsfähigen Ladeinfrastrukturen</span></p>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Entwicklung</span> von Testsystemen und -methoden </p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <p>zielstrebige <span class="font-bold">Digitalisierung</span> & <span class="font-bold">gelebter Umweltschutz</span></p>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> für das Gewerbegebiet der <span class="font-bold">Stadt Berka/Werra</span> </p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <p>Verkürzung der <span class="font-bold">Erprobungszeiten</span></p>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> durch <span class="font-bold">Einsatz modernster Technik</span></p>
+                </li>
+              </ul>
+            </div>
+            <!-- Item -->
+            <div class="">
+              <Picture src={auto} alt="auto" class="rounded-3xl w-full"/>
+            </div>
+          </div>
+        </div>
+      </section>
+</Layout>

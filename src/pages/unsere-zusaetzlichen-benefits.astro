@@ -1,0 +1,22 @@
+---
+import ZbNavReact from "../components/Zb/ZbNavReact";
+import Layout from "../layouts/Layout.astro";
+import ZbHero from "../components/Zb/ZbHero.astro";
+import ZbFooter from "../components/Zb/ZbFooter.astro";
+import ZbLinks from "../components/Zb/ZbLinks.astro";
+---
+
+<Layout title="Unsere Dienstleistung">
+      <ZbNavReact client:idle/>
+      <section class="fulll mt-1 mb-40">
+        <ZbHero />
+        <ZbLinks />
+      </section>
+      <ZbFooter/>
+    </Layout>
+    
+<style>
+      .fulll {
+        background: linear-gradient(rgba(255, 255, 255, 0.5%), rgba(231,64,44, 100%));
+      }
+</style>

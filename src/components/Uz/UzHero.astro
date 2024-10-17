@@ -1,0 +1,49 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import tisax from "../../assets/tisax.png"
+import IHK from "../../assets/IHK.png"
+import { Picture } from "astro:assets";
+---
+
+<Layout title="test">
+
+<section class="-mt-10  ">
+  <!-- Container -->
+  <div class="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-20">
+    <!-- Heading -->
+    <div class="mx-auto mb-6 flex max-w-3xl flex-col text-center md:mb-10 lg:mb-12">
+      <h2 class="text-3xl font-bold md:text-5xl"> Wir sind Tisax und IHK Zertifiziert </h2>
+    </div>
+    <!-- Contents -->
+    <div class="grid grid-cols-1 gap-8 sm:gap-20 lg:grid-cols-2">
+      <!-- Content 1 -->
+      <div class="border border-white rounded-3xl">
+        <div class="mt-10 flex h-72 w-full flex-col items-center justify-center rounded-tl-3xl rounded-tr-3xl lg:p-10 lg:h-72">
+          <p class="inline-block max-w-full text-black">
+            <Picture src={tisax} alt="Tisax Zertifizierung"/>
+          </p>
+        </div>
+        <div class="mt-10 flex justify-between p-5 bg-white rounded-bl-3xl rounded-br-3xl lg:mt-0">
+          <p class="text-sm font-bold md:max-w-md">IHK</p>
+          <p class="text-sm font-bold md:max-w-md">Zertifizierung</p>
+        </div>
+      </div>
+      <!-- Content 2 -->
+      <div class="border border-white rounded-3xl">
+        <div class="mt-10 flex h-72 w-full flex-col items-center justify-center rounded-tl-3xl rounded-tr-3xl lg:p-10 lg:h-72">
+          <p class="inline-block max-w-full text-black">
+            <Picture src={IHK} alt="IHK Zertifizierung"/>
+          </p>
+        </div>
+        <div class="mt-10 flex justify-between p-5 bg-white rounded-bl-3xl rounded-br-3xl lg:mt-0">
+          <p class="text-sm font-bold md:max-w-md">IHK</p>
+          <p class="text-sm font-bold md:max-w-md">Zertifizierung</p>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto mt-5 flex max-w-3xl flex-col text-center md:mb-10 lg:mb-12">
+      <h2 style="color: darkblue;" class="text-xl font-bold md:text-xl"> VW-konzernspezifisches S-Rating </h2>
+    </div>
+  </div>
+</section>
+</Layout>

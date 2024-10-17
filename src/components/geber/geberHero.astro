@@ -1,0 +1,61 @@
+---
+import { Picture } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import auto from "../../assets/shutterstock_591685676.jpg"
+---
+
+<Layout title="Ud-Hero">
+    <section class="ud-hero">
+        <!-- Container -->
+        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+          <!-- Component -->
+          <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center">
+            <!-- Item -->
+            <div class="lg:w-1/2">
+              <!-- Title -->
+              <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl"> DS-AT als Arbeitgeber </h2>
+              <p class="mb-6 max-w-lg text-sm text-gray-700 sm:text-base"> Wir sind Ausbilder für <span class="font-bold">KFZ- und IT-Berufe</span> der IHK Thüringen. <br><br>Zusätzliche und notwendige Fahrerqualifikationen sind fester Bestandteil unseres <span class="font-bold">Weiterbildungsprogramms.</span><br><br>Wir suchen stets (w/m/d):</p>
+              <div class="mb-6 h-0 w-40 border [border-top-style:solid] border-black"></div>
+              <!-- List -->
+              <ul class="flex flex-col">
+                <li class="mb-2 flex items-center" style="width: 400px;">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Gernfahrer,</span>  die sich zu einem <span class="font-bold">Testfahrer entwickeln</span> und <span class="font-bold">perfektionieren</span> wollen. </p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Kraftfahrer,</span></p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">KFZ-Mechatroniker,</span> </p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Sachbearbeiter,</span></p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Projektleiter,</span></p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Werkstudenten/Praktikanten,</span></p>
+                </li>
+                <span style="border-bottom: solid 2px black; margin-bottom: 10px; width: 100px"></span> 
+                <p>die an der Entwicklung von modernen, automatisierten Fahrzeugsystemen mitarbeiten wollen.</p>
+              </ul>
+            </div>
+            <!-- Item -->
+            <div class="">
+              <Picture src={auto} alt="auto" class="rounded-3xl w-full"/>
+            </div>
+          </div>
+        </div>
+      </section>
+</Layout>

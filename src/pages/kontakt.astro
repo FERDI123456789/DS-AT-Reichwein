@@ -1,0 +1,21 @@
+---
+import KontaktFooter from "../components/kontakt/KontaktFooter.astro";
+import KontaktHero from "../components/kontakt/KontaktHero.astro";
+import KontaktNavReact from "../components/kontakt/KontaktNavReact";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Karriere">
+  <section class="full">
+    <KontaktNavReact client:idle/>
+    <KontaktHero client:idle />
+  </section>
+  <KontaktFooter />
+</Layout>
+
+<style>
+      .full {
+        background: linear-gradient(rgba(255, 255, 255, 0.5%), rgba(231,64,44, 100%));
+      }
+</style>
+

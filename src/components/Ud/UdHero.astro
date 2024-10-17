@@ -1,0 +1,62 @@
+---
+import { Picture } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import auto from "../../assets/shutterstock_591685676.jpg"
+---
+
+<Layout title="Ud-Hero">
+    <section class="ud-hero">
+        <!-- Container -->
+        <div class="mb-20 mx-auto w-full max-w-7xl px-5 md:px-10 md:py-10">
+          <!-- Component -->
+          <div class="flex flex-col gap-8 sm:gap-20 lg:flex-row-reverse lg:items-center">
+            <!-- Item -->
+            <div class="lg:w-1/2">
+              <!-- Title -->
+              <h2 class="mb-4 max-w-3xl text-3xl font-bold md:text-5xl"> Unsere Dienstleistungen </h2>
+              <p class="mb-6 max-w-lg text-sm text-gray-700 sm:text-base"> Als Partner für die nationale und internationale Automobil- und Zulieferindustrie stellen wir weltweite Entwicklungs- und Servicedienstleistungen bereit. <br> <br>Dazu gehören: </p>
+              <div class="mb-6 h-0 w-40 border [border-top-style:solid] border-black"></div>
+              <!-- List -->
+              <ul class="flex flex-col">
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm font-bold sm:text-base"> Reifendauerlauftests </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Entwicklung</span> von Testsystemen und -methoden </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 text-sm sm:text-base"> <span class="font-bold">Systemerprobungen</span> </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Homologations-Tests</span> nach FMVSS 110 und KMVSS 88-2 </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Dauerlauferprobungen</span> für Überwachungsorganisationen </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Weltweite Sensorerprobung</span> von Fahrer-Assistenz-Systemen für „Autonomous Driving“ </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm"> <span class="font-bold">Servicedienstleistungen</span> in Erprobungsbereichen </p>
+                </li>
+                <li class="mb-2 flex items-center">
+                  <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94a84be6cf60_check-mark.svg" alt="" class="mr-2 inline-block h-4 w-4" />
+                  <p class="text-gray-700 max-[479px]:text-sm font-bold"> Werkstattservice </p>
+                </li>
+              </ul>
+            </div>
+            <!-- Item -->
+            <div class="">
+              <Picture src={auto} alt="auto" class="rounded-3xl w-full"/>
+            </div>
+          </div>
+        </div>
+      </section>
+</Layout>
