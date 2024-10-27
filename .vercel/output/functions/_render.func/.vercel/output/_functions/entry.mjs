@@ -1,6 +1,6 @@
 import { renderers } from './renderers.mjs';
-import { c as createExports } from './chunks/entrypoint_BprkRl0q.mjs';
-import { manifest } from './manifest_lD_yhs2V.mjs';
+import { c as createExports } from './chunks/entrypoint_CImhRhEk.mjs';
+import { manifest } from './manifest_CCoH9Vf_.mjs';
 
 const _page0 = () => import('./pages/_image.astro.mjs');
 const _page1 = () => import('./pages/404.astro.mjs');
@@ -39,7 +39,7 @@ const _manifest = Object.assign(manifest, {
     middleware: () => import('./_noop-middleware.mjs')
 });
 const _args = {
-    "middlewareSecret": "d463d647-0f37-4bf7-aa51-2d981453b99e",
+    "middlewareSecret": "f4638d10-044b-4352-a194-5ab7b68fd9f7",
     "skewProtection": false
 };
 const _exports = createExports(_manifest, _args);
