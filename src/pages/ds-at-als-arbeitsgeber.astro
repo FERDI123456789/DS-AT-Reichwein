@@ -3,14 +3,12 @@ import GeberNavReact from "../components/geber/geberNavReact";
 import Layout from "../layouts/Layout.astro";
 import GeberHero from "../components/geber/geberHero.astro";
 import GeberFooter from "../components/geber/geberFooter.astro";
-import GeberLinks from "../components/geber/geberLinks.astro";
 ---
 
 <Layout title="Unsere Dienstleistung">
       <GeberNavReact client:idle/>
       <section class="fulll -mt-10 mb-20">
         <GeberHero />
-        <GeberLinks />
       </section>
       <GeberFooter/>
     </Layout>

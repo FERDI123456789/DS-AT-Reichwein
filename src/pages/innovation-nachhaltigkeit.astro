@@ -3,14 +3,12 @@ import IvNgNavReact from "../components/IvNg/IvNgNavReact";
 import Layout from "../layouts/Layout.astro";
 import IvNgHero from "../components/IvNg/IvNgHero.astro";
 import IvNgFooter from "../components/IvNg/IvNgFooter.astro";
-import IvNgLinks from "../components/IvNg/IvNgLinks.astro";
 ---
 
 <Layout title="Unsere Dienstleistung">
       <IvNgNavReact client:idle/>
       <section class="fulll -mt-10 mb-40">
         <IvNgHero />
-        <IvNgLinks />
       </section>
       <IvNgFooter/>
     </Layout>
